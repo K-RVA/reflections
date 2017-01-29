@@ -1,0 +1,38 @@
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- If there were lines that had "-", it indicated that the line was removed from the original file.  Likewise, if it showed "+", it was added in the new file.
+syntax: diff -u <old file> <new file>
+
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- Having the ability to go back to a previous version when something royally screws up could save a lot of time.  Instead of trying to figure out and fix the mistake, just revert back to an old version.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having version automatically saved, like Google Docs?
+- Pros of manual commits are that there is a specific stopping place being acknowledged by the programmer.  It wouldn't be some arbitrary stopping point.
+- Cons of manual commit include FORGETTING TO COMMIT or possibly committing too often which would make history hard to sift through if needed.
+
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Multiple files, such as coding, may need to all be updated at the same time.  Other platforms do not support this because the types of files being saved do not require multiple changes across files at the same time.
+
+
+5) How can you use the commands git log and git diff to view the history of files?
+- git log shows all the commit changes, so you look for one with the message to identify the changes that you're looking for.  After that, you can do 'git diff <old> <new> to compare the one you're looking for with the previous commit.
+
+
+6) How might using version control make you more confident to make changes that could break something?
+- It would be very easy to commit before deciding to make a big change and then make the change.  If it breaks it, just revert to the previous commit.  If not, then you're good to go.
+
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+- START THIS CMSC 355 project!
+
+
+
+
+
+
+
+
+
+
+
